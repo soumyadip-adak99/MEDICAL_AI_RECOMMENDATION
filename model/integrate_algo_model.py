@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib as plt
 import seaborn as sns
 
-data = pd.read_csv(r"C:\Users\ARINDAM PAL\OneDrive\Desktop\MODEL\check\Training.csv")
+data = pd.read_csv(r"model\Training.csv")
 len(data['prognosis'].unique())
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -83,7 +83,7 @@ def get_disease(patient_symptoms):
    
 
    # Load the dataset
-doctor_df = pd.read_csv(r"C:\Users\ARINDAM PAL\OneDrive\Desktop\MODEL\check\Doctor_data_with_diseases.csv")
+doctor_df = pd.read_csv(r"model\integrate_algo_model.py")
 
 # Function to recommend doctors based on disease
 def suggest_doctors(disease, doctors_df, sort_by="both"):

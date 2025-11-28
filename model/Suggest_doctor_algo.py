@@ -3,7 +3,7 @@
 
 import pandas as pd
 # Load the dataset
-doctor_df = pd.read_csv(r"C:\Users\ARINDAM PAL\OneDrive\Desktop\MODEL\remeet\Doctor_data_with_diseases.csv")
+doctor_df = pd.read_csv(r"model\Doctor_data_with_diseases.csv")
 
 # Function to recommend doctors based on disease
 def suggest_doctors(disease, doctors_df, sort_by="both"):
