@@ -3,5 +3,6 @@ instance/*
 .webassets-cache
 .env
 .venv
+.idea
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Flask

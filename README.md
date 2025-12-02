@@ -120,7 +120,3 @@ http://127.0.0.1:5000/
 This project is open-source under the **MIT License**.
 
 ---
-
-<div align="center">
-<b>Developed by <a href="https://github.com/soumyadip-adak99">Soumyadip Adak</a></b>
-</div>
